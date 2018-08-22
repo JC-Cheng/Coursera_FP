@@ -1,0 +1,157 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/jenchiehcheng/Documents/Courses/coursera_FP/example/target/scala-2.11/classes
+compile options:
+1 items
+0 -> -deprecation
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.12
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+5 items
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> /Users/jenchiehcheng/Documents/Courses/coursera_FP/example/target/scala-2.11/classes/common/package$$anonfun$subFile$1.class
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> /Users/jenchiehcheng/Documents/Courses/coursera_FP/example/target/scala-2.11/classes/common/package$.class
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> /Users/jenchiehcheng/Documents/Courses/coursera_FP/example/target/scala-2.11/classes/common/package.class
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> /Users/jenchiehcheng/Documents/Courses/coursera_FP/example/target/scala-2.11/classes/example/Lists$.class
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> /Users/jenchiehcheng/Documents/Courses/coursera_FP/example/target/scala-2.11/classes/example/Lists.class
+binary dependencies:
+2 items
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> /Users/jenchiehcheng/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> /Users/jenchiehcheng/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+5 items
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> common.package
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> common.package$
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> common.package$$anonfun$subFile$1
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> example.Lists
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> example.Lists$
+used names:
+66 items
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> ::
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> <init>
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> <repeated>
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> ?0
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> A
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> Any
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> AnyRef
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> B
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> Boolean
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> Class
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> File
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> FileInputStream
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> Function2
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> InputStream
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> List
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> None
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> Nothing
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> Object
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> Option
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> Predef
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> Some
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> String
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> URI
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> URL
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> _root_
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> child
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> children
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> classesDir
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> common
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> exists
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> file
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> foldLeft
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> getClass
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> getParentFile
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> getResource
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> io
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> java
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> package
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> projectDir
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> resourceFile
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> resourcePath
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> scala
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> subFile
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> toURI
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> +
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> <init>
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> >
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> AnyRef
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> Boolean
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> Int
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> List
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> Lists
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> Object
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> acc
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> example
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> head
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> isEmpty
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> larger
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> loop
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> package
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> scala
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> tail
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> x
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> xs
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> y
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> ys
+product stamps:
+5 items
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/target/scala-2.11/classes/common/package$$anonfun$subFile$1.class -> lastModified(1534971603539)
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/target/scala-2.11/classes/common/package$.class -> lastModified(1534971603530)
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/target/scala-2.11/classes/common/package.class -> lastModified(1534971603470)
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/target/scala-2.11/classes/example/Lists$.class -> lastModified(1534971603550)
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/target/scala-2.11/classes/example/Lists.class -> lastModified(1534971603542)
+source stamps:
+2 items
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> hash(885b8f12a5b2a83dad658f76cc1fdd678a38d4a8)
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> hash(3f48a60f7efdf8db06fa069867b7cbec32d8309d)
+binary stamps:
+1 items
+/Users/jenchiehcheng/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar -> lastModified(1509673049000)
+class names:
+1 items
+/Users/jenchiehcheng/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar -> scala.Boolean
+internal apis:
+2 items
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwNR5ezQABc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwxBALLnQABm5vdGlmeXNxAH4ADLd7app0AAdwYWNrYWdlc3EAfgAMJhK6tnQABHdhaXRzcQB+AAzx5+qMdAANJGFzSW5zdGFuY2VPZnNxAH4ADM2K/A90AAZlcXVhbHNzcQB+AAzxbFRpdAAMYXNJbnN0YW5jZU9mc3EAfgAMzsiFSnQADHN5bmNocm9uaXplZHNxAH4ADFjDlPV0AA0kaXNJbnN0YW5jZU9mc3EAfgAMqj2IS3QAF3Jlc291cmNlQXNTdHJlYW1Gcm9tU3Jjc3EAfgAM1Ez2oXQACW5vdGlmeUFsbHNxAH4ADCYkqcp0AAxpc0luc3RhbmNlT2ZzcQB+AAxpxNpvdAADPz8/c3EAfgAMmnpgkXQAAj09c3EAfgAM2tY31nQABWNsb25lc3EAfgAMZ0zWI3QAB3N1YkZpbGVzcQB+AAwkK+HodAAIdG9TdHJpbmdzcQB+AAw/usRqdAACIT1zcQB+AAzTr+AcdAAIZ2V0Q2xhc3NzcQB+AAwIKkOTdAACbmVzcQB+AAwadAmLdAACZXFzcQB+AAyTEjXPdAACIyNzcQB+AAyruj4odAAIZmluYWxpemVzcQB+AAzDjCCldAAIaGFzaENvZGVzcQB+AAx7bUT0dAADKioqc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AR3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQADmNvbW1vbi5wYWNrYWdldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAJmpkay5pbnRlcm5hbC5Ib3RTcG90SW50cmluc2ljQ2FuZGlkYXRlc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGBzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AR0wACWluaGVyaXRlZHEAfgBHTAAHcGFyZW50c3EAfgBHeHEAfgBlc3EAfgBgdXEAfgBCAAAAAHNxAH4AYHVxAH4AQgAAAABzcQB+AGB1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGR0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AH10AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH5zcQB+AHF0AANBbnlzcQB+AHVzcQB+AHh1cQB+AHsAAAACc3EAfgB9dAAFc2NhbGFxAH4AhHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABmNvbW1vbnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZWNv1nJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABUL1VzZXJzL2plbmNoaWVoY2hlbmcvRG9jdW1lbnRzL0NvdXJzZXMvY291cnNlcmFfRlAvZXhhbXBsZS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUiFuPEqWyqD2tZY92zB/dZ4o41Kg=
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw1yjpkQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwZJgKiXQABm5vdGlmeXNxAH4ADIzMMMp0AAVMaXN0c3NxAH4ADCVaMgV0AAR3YWl0c3EAfgAMVArymHQADSRhc0luc3RhbmNlT2ZzcQB+AAzKoXPPdAAGZXF1YWxzc3EAfgAMZKx2IHQADGFzSW5zdGFuY2VPZnNxAH4ADNILycl0AAxzeW5jaHJvbml6ZWRzcQB+AAxdzrpIdAANJGlzSW5zdGFuY2VPZnNxAH4ADGZx2YF0AAlub3RpZnlBbGxzcQB+AAwtlqzvdAAMaXNJbnN0YW5jZU9mc3EAfgAMSJWvvHQAA21heHNxAH4ADOK5O3J0AAI9PXNxAH4ADAj+lgl0AAVjbG9uZXNxAH4ADIPUtj90AAh0b1N0cmluZ3NxAH4ADHpNGWl0AAIhPXNxAH4ADEdz3D10AAhnZXRDbGFzc3NxAH4ADHxPry90AAJuZXNxAH4ADC7ORm50AAJlcXNxAH4ADLkNf5B0AANzdW1zcQB+AAzYyJFhdAACIyNzcQB+AAxUCFMndAAIZmluYWxpemVzcQB+AAzhsEAJdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAANZXhhbXBsZS5MaXN0c3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0ACZqZGsuaW50ZXJuYWwuSG90U3BvdEludHJpbnNpY0NhbmRpZGF0ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBcc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AYXNxAH4AXHVxAH4APgAAAABzcQB+AFx1cQB+AD4AAAAAc3EAfgBcdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBgdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBgc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB5dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB6c3EAfgBtdAADQW55c3EAfgBxc3EAfgB0dXEAfgB3AAAAAnNxAH4AeXQABXNjYWxhcQB+AIB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAdleGFtcGxlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFlY2/WcnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFQvVXNlcnMvamVuY2hpZWhjaGVuZy9Eb2N1bWVudHMvQ291cnNlcy9jb3Vyc2VyYV9GUC9leGFtcGxlL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ/SKYPfv342wb6Bphnt8vsMtgwnQ==
+external apis:
+0 items
+source infos:
+2 items
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/common/package.scala -> 
+AAAAAAAAAAA=
+/Users/jenchiehcheng/Documents/Courses/coursera_FP/example/src/main/scala/example/Lists.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZWNv1nJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9Vc2Vycy9qZW5jaGllaGNoZW5nL0RvY3VtZW50cy9Db3Vyc2VzL2NvdXJzZXJhX0ZQL2V4YW1wbGUvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=

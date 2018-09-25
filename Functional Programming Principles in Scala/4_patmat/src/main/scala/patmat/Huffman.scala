@@ -73,10 +73,16 @@ object Huffman {
    */
   def times(chars: List[Char]): List[(Char, Int)] = chars.groupBy(char=>char).mapValues(_.size).toList
 
-  def insertion_sort[U](x: U, xs: List[U], int_map: U => Int): List[U] = xs match {
-    case Nil => List(x)
-    case y :: ys => if (int_map(x) <= int_map(y)) x :: xs else y :: insertion_sort(x, ys, int_map)
+  def insertion_sort[U](xs: List[U], mapping_to_int: U => Int): List[U] = {
+    if (xs.isEmpty) xs
+    else insert(xs.head, insertion_sort(xs.tail, mapping_to_int), mapping_to_int)
   }
+
+  def insert[U](x: U, xs: List[U], mapping_to_int: U => Int): List[U] = xs match {
+    case Nil => List(x)
+    case y::ys => if (mapping_to_int(x) < mapping_to_int(y)) x::xs else y::insert(x, ys, mapping_to_int)
+  }
+
   /**
    * Returns a list of `Leaf` nodes for a given frequency table `freqs`.
    *
@@ -86,7 +92,7 @@ object Huffman {
    */
   def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = {
     val Leaves = freqs.map(x => Leaf(x._1, x._2))
-    insertion_sort(Leaves.head, Leaves.tail, (x: Leaf) => x.weight)
+    insertion_sort(Leaves, (x: Leaf) => x.weight)
   }
   
   /**
@@ -109,7 +115,7 @@ object Huffman {
   def combine(trees: List[CodeTree]): List[CodeTree] = {
     if (trees.isEmpty) trees // 0 element
     else if (trees.tail.isEmpty) trees // 1 element
-    else insertion_sort(makeCodeTree(trees.head, trees.tail.head), trees.tail.tail, weight)
+    else insert(makeCodeTree(trees.head, trees.tail.head), trees.tail.tail, weight)
   }
   
   /**

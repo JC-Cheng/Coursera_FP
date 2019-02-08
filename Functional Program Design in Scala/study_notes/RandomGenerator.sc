@@ -3,7 +3,6 @@ trait Generator[+T] {
   self =>
 
   def generate: T //function
-
   def map[S](f: T => S): Generator[S] = new Generator[S] {
     def generate = f(self.generate)
   }
@@ -33,28 +32,49 @@ def single[T](x: T): Generator[T] = new Generator[T] { def generate = x }
 def choose(lo: Int, hi: Int): Generator[Int] = {
   for (x <- integers) yield lo + x % (hi - lo)
 }
-def oneof[T](xs: T*): Generator[T] =
+def oneof[T](xs: T*): Generator[T] = {
   for (idx <- choose(0, xs.length)) yield xs(idx)
+}
 
-def lists: Generator[List[Int]] =
-  for {
-    isEmpty <- booleans
-    list <- if (isEmpty) emptyList else nonEmptyLists
-  } yield list
 
-def emptyList = single(Nil)
-def nonEmptyLists = for { head <- integers; tail <- lists } yield head :: tail
-val l = lists.generate
+object randList{
+
+  def emptyList = {
+    single(Nil)
+  }
+
+  def lists: Generator[List[Int]] = {
+    for {
+      isEmpty <- booleans
+      list <- if (isEmpty) emptyList else nonEmptyLists
+    } yield list
+  }
+
+  def nonEmptyLists = {
+    for { head <- integers; tail <- lists } yield head :: tail
+  }
+}
+
+val l = randList.lists.generate
 
 trait Tree[T]
 case class Inner[T](left: Tree[T], right: Tree[T]) extends Tree[T]
 case class Leaf[T](x: T) extends Tree[T]
 
-def bLeaves: Generator[Leaf[Boolean]] = for (x<-booleans) yield Leaf(x)
-def bInners: Generator[Inner[Boolean]] = for (l<-bTrees; r<-bTrees) yield Inner(l, r)
-def bTrees: Generator[Tree[Boolean]] = for {
-  isLeaf <- booleans
-  tree <- if (isLeaf) bLeaves else bInners
-} yield tree
+object randBTree{
+  def bLeaves: Generator[Leaf[Boolean]] = {
+    for (x<-booleans) yield Leaf(x)
+  }
+  def bInners: Generator[Inner[Boolean]] = {
+    for (l<-bTrees; r<-bTrees) yield Inner(l, r)
+  }
+  def bTrees: Generator[Tree[Boolean]] = {
+    for {
+      isLeaf <- booleans
+      tree <- if (isLeaf) bLeaves else bInners
+    } yield tree
+  }
+}
 
-bTrees.generate
+
+randBTree.bTrees.generate

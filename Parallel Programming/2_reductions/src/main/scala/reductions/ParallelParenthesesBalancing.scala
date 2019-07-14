@@ -15,7 +15,7 @@ object ParallelParenthesesBalancingRunner {
     Key.exec.maxWarmupRuns -> 80,
     Key.exec.benchRuns -> 120,
     Key.verbose -> true
-  ) withWarmer(new Warmer.Default)
+  ) withWarmer (new Warmer.Default)
 
   def main(args: Array[String]): Unit = {
     val length = 100000000
@@ -39,23 +39,24 @@ object ParallelParenthesesBalancingRunner {
 object ParallelParenthesesBalancing {
 
   /** Returns `true` iff the parentheses in the input `chars` are balanced.
-   */
+    */
   def balance(chars: Array[Char]): Boolean = {
-    val np = chars.foldLeft(0)((n, c) => c match {
-      case '(' => if (n>=0) n+1 else -1
-      case ')' => if (n>0) n-1 else -1
-      case _ => n
-    })
+    val np = chars.foldLeft(0)((n, c) =>
+      c match {
+        case '(' => if (n >= 0) n + 1 else -1
+        case ')' => if (n > 0) n - 1 else -1
+        case _   => n
+      })
     np == 0
   }
 
+  type IntPair = (Int, Int)
+
   /** Returns `true` iff the parentheses in the input `chars` are balanced.
-   */
+    */
   def parBalance(chars: Array[Char], threshold: Int): Boolean = {
 
-    type pair = (Int, Int)
-
-    def traverse(from: Int, until: Int): pair /*: ???*/ = {
+    def traverse(from: Int, until: Int): IntPair /*: ???*/ = {
       /*
       ((( 3/0
       (() 1/0
@@ -65,26 +66,28 @@ object ParallelParenthesesBalancing {
       )() 0/-1
       ()) 0/-1
       ))) 0/-3
-      */
-
-      chars.slice(from, until).foldLeft((0,0))((p, c) => c match {
-        case '(' => if (p._1 >= 0) (p._1 + 1, p._2) else (p._1, p._2 + 1)
-        case ')' => if (p._1 > 0) (p._1 - 1, p._2) else (p._1, p._2 - 1)
-        case _ => (p._1, p._2)
-      })
+       */
+      chars
+        .slice(from, until)
+        .foldLeft((0, 0))((p, c) =>
+          c match {
+            case '(' => if (p._1 >= 0) (p._1 + 1, p._2) else (p._1, p._2 + 1)
+            case ')' => if (p._1 > 0) (p._1 - 1, p._2) else (p._1, p._2 - 1)
+            case _   => (p._1, p._2)
+          })
     }
 
-    def reduce(from: Int, until: Int): pair /*: ???*/ = {
+    def reduce(from: Int, until: Int): IntPair /*: ???*/ = {
 
-      val L = from - until
+      val L = until - from
       if (L <= 0) (0, 0)
       else if (L <= threshold) traverse(from, until)
       else {
 
-        val (a, b) = parallel(
-          reduce(from, from + L / 2),
-          reduce(from + L / 2, until)
-        )
+        val a = reduce(from, from + L / 2)
+        val b = reduce(from + L / 2, until)
+
+        println(a)
 
         val mix = a._1 + b._2
 
